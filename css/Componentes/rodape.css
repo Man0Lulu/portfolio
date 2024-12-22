@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--cor3-leve);
+  }
+  
+  footer .rodape__conteudo {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+  }
+  
+  footer .rodape__conteudo .rodape__contato span {
+    display: block;
+    font-weight: 500;
+  }
+  
+  footer .rodape__conteudo ul li {
+    display: inline-block;
+  }
+  
+  footer .rodape__conteudo ul a {
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  footer .rodape__conteudo .rodape__copyright {
+    font-size: 1.4rem;
+  }
