@@ -1,0 +1,49 @@
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+  }
+  
+  .sobre .sobre__esquerda {
+    max-width: 40rem;
+    flex: 1;
+  }
+  
+  .sobre .sobre__esquerda p {
+    margin: 1rem 0 2rem;
+  }
+  
+  .sobre .sobre__esquerda ul {
+    margin-left: -1.2rem;
+  }
+  
+  .sobre .sobre__esquerda ul li {
+    display: inline-block;
+  }
+  
+  .sobre .sobre__esquerda ul li a {
+    display: inline-block;
+    padding: 1rem;
+  }
+  
+  .sobre .sobre__direita {
+    flex: 1;
+    max-width: 66rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .sobre {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sobre .sobre__esquerda {
+      max-width: 66rem;
+      text-align: center;
+    }
+  
+    .sobre .sobre__direita {
+      text-align: center;
+    }
+  }
