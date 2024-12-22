@@ -1,0 +1,39 @@
+.habilidades {
+    background-color: var(--cor3-leve);
+    scroll-margin-top: 15rem;
+  }
+  
+  .habilidades .habilidades__conteudo {
+    padding: 6rem 4rem;
+    text-align: center;
+  }
+  
+  .habilidades .habilidades__conteudo .description {
+    max-width: 56rem;
+    margin: 0 auto 6rem;
+  }
+  
+  .habilidades .habilidades__conteudo ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .habilidades .habilidades__conteudo ul li .imagem-conteudo {
+    background-color: var(--branco);
+    padding: 2rem;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .habilidades .habilidades__conteudo ul li h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+  }
