@@ -1,4 +1,9 @@
 @import './variaveis.css';
 @import './global.css';
 
-
+@import './componentes/navbar.css';
+@import './componentes/cabecalho.css';
+@import './componentes/sobre.css';
+@import './componentes/habilidades.css';
+@import './componentes/projetos.css';
+@import './componentes/rodape.css';
